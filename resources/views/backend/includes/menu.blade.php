@@ -4,7 +4,7 @@
       
       <ul class="br-sideleft-menu">
         <li class="br-menu-item">
-          <a href="{{route('dashboard')}}" class="br-menu-link active">
+          <a href="{{route('homepage')}}" class="br-menu-link active">
             <i class="menu-item-icon icon ion-ios-home-outline tx-24"></i>
             <span class="menu-item-label">Website</span>
           </a><!-- br-menu-link -->

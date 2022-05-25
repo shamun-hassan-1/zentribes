@@ -38,7 +38,7 @@ class PagesController extends Controller
         $ChooseUsImagetwos = ChooseUsImage::latest()->where('serial_number', 2)->get();
         $ChooseUsImagethrees = ChooseUsImage::latest()->where('serial_number', 3)->get();
         $ChooseUsImagefours = ChooseUsImage::latest()->where('serial_number', 4)->get();
-        $testimonials = testimonial::latest()->get();
+        $testimonials = testimonial::take(4)->get();
         $WeWorks = WeWork::take(1)->get();
         $navs = blog::take(7)->get();
         return view('frontend.pages.home',compact('values','teamvalues','teamimages','writerSections','WriterImages','ChosseUss', 'ChooseUsImageOnes','ChooseUsImagetwos','ChooseUsImagethrees','ChooseUsImagefours','testimonials','WeWorks','navs'));

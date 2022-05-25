@@ -294,7 +294,7 @@
         </div>
            @endforeach
 
-        <div>
+      <!--   <div> -->
          <!--  <div class="p-lg-5 d-flex align-items-center">
             
             <div class="author-text p-lg-5">
@@ -317,8 +317,8 @@
             </div>
             <div class="author-img"> <img src="{{asset('frontend/assets/img/testimonial.png')}}" class="img-fluid"> </div>
           </div> -->
-        </div>
-        <div>
+        <!-- </div>
+        <div> -->
           <!-- <div class="p-lg-5 d-flex align-items-center">
             
             <div class="author-text p-lg-5">
@@ -341,8 +341,8 @@
             </div>
             <div class="author-img"> <img src="{{asset('frontend/assets/img/testimonial.png')}}" class="img-fluid"> </div>
           </div> -->
-        </div>
-        <div>
+      <!--   </div>
+        <div> -->
           <!-- <div class="p-lg-5 d-flex align-items-center">
             
             <div class="author-text p-lg-5">
@@ -365,10 +365,10 @@
             </div>
             <div class="author-img"> <img src="{{asset('frontend/assets/img/testimonial.png')}}" class="img-fluid"> </div>
           </div> -->
-        </div>
-      </div>
-    </div>
-  </div>
+        <!-- </div>
+      </div> -->
+   <!--  </div> -->
+  <!-- </div> -->
 </div>
  
         <section class="second-part" id="work">
